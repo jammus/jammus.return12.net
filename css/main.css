@@ -1,6 +1,7 @@
 body {
     margin: 0;
     color: #FFF6E5;
+    background-color: #3E454C;
     font-family: "HelveticaNeueW02-Thin","HelveticaNeue-Light","Helvetica Neue Light",Helvetica,Arial,sans-serif;
     text-align: center;
     font-size: 30px;
@@ -30,7 +31,7 @@ h3 {
 }
 
 p {
-    width: 60%;
+    width: 810px;
     margin: auto;
     padding: 12px 0;
     line-height: 42px;
@@ -46,40 +47,52 @@ a {
     color: #2185C5;
 }
 
-.lastfm {
+.organisation.lastfm {
     color: #e31b24;
-}
-
-.header {
 }
 
 .bio {
     background-color: #3E454C;
 }
 
-.projects {
-    background-color: #2185C5;
-}
 
-.project {
-    padding: 12px 0;
-}
-
-.project p {
-    text-align: center;
-}
-
-.external {
-    //background-color: #FF7F66;
-    background-color: #3E454C;
-    background-color: #FFF6E5;
-    background-color: #7ECEFD;
-}
-
-header,
-section {
+header {
     padding: 48px 12px;
 }
 
+section {
+    padding: 0 12px;
+}
+
 footer {
+}
+
+.social {
+    width: 150px;
+    height: 0px;
+    padding-top: 150px;
+    overflow: hidden;
+    margin: 0 30px;
+    display: inline-block;
+}
+
+li {
+    display: inline-block;
+}
+
+.social.twitter {
+    background-image:url('../img/twitter.png');
+}
+
+.social.lastfm {
+    background-image:url('../img/lastfm.png');
+}
+
+.social.tumblr {
+    background-image:url('../img/tumblr.png');
+}
+
+.social.github {
+    background-image:url('../img/github.png');
+    background-color: #eee;
 }
