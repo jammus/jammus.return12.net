@@ -1,0 +1,85 @@
+body {
+    margin: 0;
+    color: #FFF6E5;
+    font-family: "HelveticaNeueW02-Thin","HelveticaNeue-Light","Helvetica Neue Light",Helvetica,Arial,sans-serif;
+    text-align: center;
+    font-size: 30px;
+}
+
+h1, h2, h3, h4, h5 ,h6 {
+    font-family: "HelveticaNeue","HelveticaNeue","Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+h1,
+h2,
+h3 {
+    padding: 0 0 12px 0;
+}
+
+h1 {
+    font-size: 500%;
+    padding: 0 0 60px 0;
+}
+
+h2 {
+    font-size: 175%;
+}
+
+h3 {
+    font-size: 150%;
+}
+
+p {
+    width: 60%;
+    margin: auto;
+    padding: 12px 0;
+    line-height: 42px;
+    text-align: justify;
+}
+
+a {
+    text-decoration: none;
+}
+
+.organisation {
+    font-weight: bold;
+    color: #2185C5;
+}
+
+.lastfm {
+    color: #e31b24;
+}
+
+.header {
+}
+
+.bio {
+    background-color: #3E454C;
+}
+
+.projects {
+    background-color: #2185C5;
+}
+
+.project {
+    padding: 12px 0;
+}
+
+.project p {
+    text-align: center;
+}
+
+.external {
+    //background-color: #FF7F66;
+    background-color: #3E454C;
+    background-color: #FFF6E5;
+    background-color: #7ECEFD;
+}
+
+header,
+section {
+    padding: 48px 12px;
+}
+
+footer {
+}
